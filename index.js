@@ -8,7 +8,9 @@ app.get('/custom-commit',(req,res)=>{
   res.send(type + ":" + commit)
 })
 
-
+app.get('/',(req,res)=>{
+  res.send("welcome to first deploment")
+})
 // Question 2: Generate certificate for students
 
 
